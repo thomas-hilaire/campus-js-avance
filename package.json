@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon backend/main.js"
+    "dev": "nodemon backend/main.js",
+    "dev": "nodemon backend/main.js",
+    "weather-then": "nodemon backend/async/weather-then.js",
+    "weather-await": "nodemon backend/async/weather-await.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "weather-js": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
